@@ -48,7 +48,8 @@ export class PlayersService {
   }
 
   update(id: number, updatePlayerDto: UpdatePlayerDto) {
-    return `This action updates a #${id} player`;
+    return `This action updates a  #${id} player`;
+    
   }
 
   remove(id: number) {
